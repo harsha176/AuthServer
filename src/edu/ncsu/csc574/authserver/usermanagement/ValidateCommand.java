@@ -5,7 +5,7 @@ import edu.ncsu.csc574.module.IRequest;
 import edu.ncsu.csc574.module.IResponse;
 import edu.ncsu.csc574.module.IUserContext;
 
-public class CreateCommand implements ICommandProcessor{
+public class ValidateCommand implements ICommandProcessor {
 
 	@Override
 	public IResponse process(IUserContext ctx, IRequest request) {
